@@ -1,5 +1,33 @@
 # Changelog
 
+## [9.0.0](https://github.com/google/blockly/compare/blockly-v8.0.0...blockly-v9.0.0) (2022-04-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* fix or silence type errors (#6105)
+
+### Features
+
+* Add margin around zoomToFit ([#6042](https://github.com/google/blockly/issues/6042)) ([a202558](https://github.com/google/blockly/commit/a202558950ce9b06825447ec79bbe9960f451715))
+
+
+### Bug Fixes
+
+* add compose and decompose to block ([#6102](https://github.com/google/blockly/issues/6102)) ([619ee66](https://github.com/google/blockly/commit/619ee66b23967b26b5a25225a640be7915a741c7))
+* component id should be on the prototype ([#6104](https://github.com/google/blockly/issues/6104)) ([172a8ce](https://github.com/google/blockly/commit/172a8ce2127e3e945e2243c765b261e382691580))
+* dragging fails for collapsed blocks with Icons, which have been … ([#6081](https://github.com/google/blockly/issues/6081)) ([5240301](https://github.com/google/blockly/commit/5240301611b51801d20d30b61cba69ef7bc08e8f))
+* Fix compilation errors under Closure's strict mode ([#6073](https://github.com/google/blockly/issues/6073)) ([edc2a5c](https://github.com/google/blockly/commit/edc2a5cd0c717e521e8f98b2a3fb6bde061da241))
+* fix message loading from script tags ([#6060](https://github.com/google/blockly/issues/6060)) ([44edbb8](https://github.com/google/blockly/commit/44edbb89c35e4d24144333bf504bf045fa639cce))
+* fix or silence type errors ([#6105](https://github.com/google/blockly/issues/6105)) ([daf78af](https://github.com/google/blockly/commit/daf78af13e5ce7cebefd0e7596f63e8644c324ba))
+* improve types in touch code ([#6099](https://github.com/google/blockly/issues/6099)) ([7c7cfbe](https://github.com/google/blockly/commit/7c7cfbea63b6cc4a0f5d93687ef56c0686a3b1f2))
+* Increases the  speed of deleting blocks ([#6128](https://github.com/google/blockly/issues/6128)) ([71e8356](https://github.com/google/blockly/commit/71e835672703237deb0d1adf2d551cc9b114f443))
+* JSON deserialization fails (bug [#6091](https://github.com/google/blockly/issues/6091)) (collapsed procedure call… ([#6103](https://github.com/google/blockly/issues/6103)) ([45c36f8](https://github.com/google/blockly/commit/45c36f898202ab850d973d0f4147e15b6782d358))
+* mutators disconnecting from children instead of moving them ([#6047](https://github.com/google/blockly/issues/6047)) ([493444c](https://github.com/google/blockly/commit/493444c687eb01d2bd3d8064f23e66d1879c053c))
+* Silence Closure errors when modifying tooltips. ([#6098](https://github.com/google/blockly/issues/6098)) ([29b6b87](https://github.com/google/blockly/commit/29b6b878dc621acd6e11c34aec2e3bce25bb2508))
+* type error in uneditable bubbles ([#6092](https://github.com/google/blockly/issues/6092)) ([7353c61](https://github.com/google/blockly/commit/7353c61b2b7ee3b5e6b60b061e1414f29f01f596))
+* update extraState property in serializer typedefs ([#6057](https://github.com/google/blockly/issues/6057)) ([55cae6e](https://github.com/google/blockly/commit/55cae6ec857a5ead1cd5306095fbbe876d2618af))
+
 ## [8.0.0](https://github.com/google/blockly/compare/blockly-v7.20211209.0...blockly-v8.0.0) (2022-03-31)
 
 
