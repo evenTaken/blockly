@@ -9,6 +9,8 @@
 <script src="../../node_modules/@blockly/dev-tools/dist/index.js"></script>
 <script src="../../node_modules/@blockly/theme-modern/dist/index.js"></script>
 
+<script src="./custom_generator.js"></script>
+
 <script type="module">
 import Blockly from './blockly.mjs';
 'use strict';
@@ -41,7 +43,8 @@ function configurePlayground(playground) {
       // Refresh theme.
       ws.setTheme(ws.getTheme());
     });
-}
+  playground.addGenerator('Codelab', codelabGenerator)   
+  }
 
 function initPlayground() {
   if (typeof window.createPlayground === 'undefined') {
@@ -72,7 +75,7 @@ function initPlayground() {
           drag: true,
           wheel: false,
         },
-        toolbox: toolboxCategories,
+        toolbox: codelabToolbox,
         toolboxPosition: 'start',
         renderer: 'geras',
         zoom:
